@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		031C91112828D6BC0038F281 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91102828D6BC0038F281 /* AppDelegate.swift */; };
+		031C91132828D6BC0038F281 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91122828D6BC0038F281 /* SceneDelegate.swift */; };
+		031C91152828D6BC0038F281 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91142828D6BC0038F281 /* ViewController.swift */; };
+		031C91182828D6BC0038F281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031C91162828D6BC0038F281 /* Main.storyboard */; };
+		031C911A2828D6BD0038F281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 031C91192828D6BD0038F281 /* Assets.xcassets */; };
+		031C911D2828D6BD0038F281 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 031C911B2828D6BD0038F281 /* LaunchScreen.storyboard */; };
+		031C91282828D6BD0038F281 /* BaraaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91272828D6BD0038F281 /* BaraaraGameTests.swift */; };
+		031C91322828D6BD0038F281 /* BaraaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91312828D6BD0038F281 /* BaraaraGameUITests.swift */; };
+		031C91342828D6BD0038F281 /* BaraaraGameUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91332828D6BD0038F281 /* BaraaraGameUITestsLaunchTests.swift */; };
+		031C91432828D8310038F281 /* tail.png in Resources */ = {isa = PBXBuildFile; fileRef = 031C91412828D8310038F281 /* tail.png */; };
+		031C91442828D8310038F281 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = 031C91422828D8310038F281 /* bar.png */; };
+		031C91462828D99E0038F281 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91452828D99E0038F281 /* GameViewController.swift */; };
+		031C91482828D9AE0038F281 /* RankingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031C91472828D9AE0038F281 /* RankingViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		031C91242828D6BD0038F281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 031C91052828D6BC0038F281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031C910C2828D6BC0038F281;
+			remoteInfo = BaraaraGame;
+		};
+		031C912E2828D6BD0038F281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 031C91052828D6BC0038F281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 031C910C2828D6BC0038F281;
+			remoteInfo = BaraaraGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		031C910D2828D6BC0038F281 /* BaraaraGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaraaraGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		031C91102828D6BC0038F281 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		031C91122828D6BC0038F281 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		031C91142828D6BC0038F281 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		031C91172828D6BC0038F281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		031C91192828D6BD0038F281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		031C911C2828D6BD0038F281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		031C911E2828D6BD0038F281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		031C91232828D6BD0038F281 /* BaraaraGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaraaraGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031C91272828D6BD0038F281 /* BaraaraGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaraaraGameTests.swift; sourceTree = "<group>"; };
+		031C912D2828D6BD0038F281 /* BaraaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaraaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		031C91312828D6BD0038F281 /* BaraaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaraaraGameUITests.swift; sourceTree = "<group>"; };
+		031C91332828D6BD0038F281 /* BaraaraGameUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaraaraGameUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		031C91412828D8310038F281 /* tail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tail.png; sourceTree = "<group>"; };
+		031C91422828D8310038F281 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		031C91452828D99E0038F281 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		031C91472828D9AE0038F281 /* RankingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RankingViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		031C910A2828D6BC0038F281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031C91202828D6BD0038F281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031C912A2828D6BD0038F281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		031C91042828D6BC0038F281 = {
+			isa = PBXGroup;
+			children = (
+				031C910F2828D6BC0038F281 /* BaraaraGame */,
+				031C91262828D6BD0038F281 /* BaraaraGameTests */,
+				031C91302828D6BD0038F281 /* BaraaraGameUITests */,
+				031C91402828D8310038F281 /* Barabara素材 */,
+				031C910E2828D6BC0038F281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		031C910E2828D6BC0038F281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				031C910D2828D6BC0038F281 /* BaraaraGame.app */,
+				031C91232828D6BD0038F281 /* BaraaraGameTests.xctest */,
+				031C912D2828D6BD0038F281 /* BaraaraGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		031C910F2828D6BC0038F281 /* BaraaraGame */ = {
+			isa = PBXGroup;
+			children = (
+				031C91102828D6BC0038F281 /* AppDelegate.swift */,
+				031C91122828D6BC0038F281 /* SceneDelegate.swift */,
+				031C91142828D6BC0038F281 /* ViewController.swift */,
+				031C91162828D6BC0038F281 /* Main.storyboard */,
+				031C91192828D6BD0038F281 /* Assets.xcassets */,
+				031C911B2828D6BD0038F281 /* LaunchScreen.storyboard */,
+				031C911E2828D6BD0038F281 /* Info.plist */,
+				031C91452828D99E0038F281 /* GameViewController.swift */,
+				031C91472828D9AE0038F281 /* RankingViewController.swift */,
+			);
+			path = BaraaraGame;
+			sourceTree = "<group>";
+		};
+		031C91262828D6BD0038F281 /* BaraaraGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				031C91272828D6BD0038F281 /* BaraaraGameTests.swift */,
+			);
+			path = BaraaraGameTests;
+			sourceTree = "<group>";
+		};
+		031C91302828D6BD0038F281 /* BaraaraGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				031C91312828D6BD0038F281 /* BaraaraGameUITests.swift */,
+				031C91332828D6BD0038F281 /* BaraaraGameUITestsLaunchTests.swift */,
+			);
+			path = BaraaraGameUITests;
+			sourceTree = "<group>";
+		};
+		031C91402828D8310038F281 /* Barabara素材 */ = {
+			isa = PBXGroup;
+			children = (
+				031C91412828D8310038F281 /* tail.png */,
+				031C91422828D8310038F281 /* bar.png */,
+			);
+			path = "Barabara素材";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		031C910C2828D6BC0038F281 /* BaraaraGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031C91372828D6BD0038F281 /* Build configuration list for PBXNativeTarget "BaraaraGame" */;
+			buildPhases = (
+				031C91092828D6BC0038F281 /* Sources */,
+				031C910A2828D6BC0038F281 /* Frameworks */,
+				031C910B2828D6BC0038F281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BaraaraGame;
+			productName = BaraaraGame;
+			productReference = 031C910D2828D6BC0038F281 /* BaraaraGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		031C91222828D6BD0038F281 /* BaraaraGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031C913A2828D6BD0038F281 /* Build configuration list for PBXNativeTarget "BaraaraGameTests" */;
+			buildPhases = (
+				031C911F2828D6BD0038F281 /* Sources */,
+				031C91202828D6BD0038F281 /* Frameworks */,
+				031C91212828D6BD0038F281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031C91252828D6BD0038F281 /* PBXTargetDependency */,
+			);
+			name = BaraaraGameTests;
+			productName = BaraaraGameTests;
+			productReference = 031C91232828D6BD0038F281 /* BaraaraGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		031C912C2828D6BD0038F281 /* BaraaraGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 031C913D2828D6BD0038F281 /* Build configuration list for PBXNativeTarget "BaraaraGameUITests" */;
+			buildPhases = (
+				031C91292828D6BD0038F281 /* Sources */,
+				031C912A2828D6BD0038F281 /* Frameworks */,
+				031C912B2828D6BD0038F281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				031C912F2828D6BD0038F281 /* PBXTargetDependency */,
+			);
+			name = BaraaraGameUITests;
+			productName = BaraaraGameUITests;
+			productReference = 031C912D2828D6BD0038F281 /* BaraaraGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		031C91052828D6BC0038F281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					031C910C2828D6BC0038F281 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					031C91222828D6BD0038F281 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 031C910C2828D6BC0038F281;
+					};
+					031C912C2828D6BD0038F281 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 031C910C2828D6BC0038F281;
+					};
+				};
+			};
+			buildConfigurationList = 031C91082828D6BC0038F281 /* Build configuration list for PBXProject "BaraaraGame" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 031C91042828D6BC0038F281;
+			productRefGroup = 031C910E2828D6BC0038F281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				031C910C2828D6BC0038F281 /* BaraaraGame */,
+				031C91222828D6BD0038F281 /* BaraaraGameTests */,
+				031C912C2828D6BD0038F281 /* BaraaraGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		031C910B2828D6BC0038F281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C911D2828D6BD0038F281 /* LaunchScreen.storyboard in Resources */,
+				031C911A2828D6BD0038F281 /* Assets.xcassets in Resources */,
+				031C91182828D6BC0038F281 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031C91212828D6BD0038F281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031C912B2828D6BD0038F281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C91432828D8310038F281 /* tail.png in Resources */,
+				031C91442828D8310038F281 /* bar.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		031C91092828D6BC0038F281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C91482828D9AE0038F281 /* RankingViewController.swift in Sources */,
+				031C91462828D99E0038F281 /* GameViewController.swift in Sources */,
+				031C91152828D6BC0038F281 /* ViewController.swift in Sources */,
+				031C91112828D6BC0038F281 /* AppDelegate.swift in Sources */,
+				031C91132828D6BC0038F281 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031C911F2828D6BD0038F281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C91282828D6BD0038F281 /* BaraaraGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		031C91292828D6BD0038F281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				031C91322828D6BD0038F281 /* BaraaraGameUITests.swift in Sources */,
+				031C91342828D6BD0038F281 /* BaraaraGameUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		031C91252828D6BD0038F281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031C910C2828D6BC0038F281 /* BaraaraGame */;
+			targetProxy = 031C91242828D6BD0038F281 /* PBXContainerItemProxy */;
+		};
+		031C912F2828D6BD0038F281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 031C910C2828D6BC0038F281 /* BaraaraGame */;
+			targetProxy = 031C912E2828D6BD0038F281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		031C91162828D6BC0038F281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031C91172828D6BC0038F281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		031C911B2828D6BD0038F281 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				031C911C2828D6BD0038F281 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		031C91352828D6BD0038F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		031C91362828D6BD0038F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		031C91382828D6BD0038F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583Y3NAVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaraaraGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.yonezu.kitty.BaraaraGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		031C91392828D6BD0038F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583Y3NAVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BaraaraGame/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.yonezu.kitty.BaraaraGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		031C913B2828D6BD0038F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583Y3NAVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.yonezu.kitty.BaraaraGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaraaraGame.app/BaraaraGame";
+			};
+			name = Debug;
+		};
+		031C913C2828D6BD0038F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583Y3NAVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.yonezu.kitty.BaraaraGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BaraaraGame.app/BaraaraGame";
+			};
+			name = Release;
+		};
+		031C913E2828D6BD0038F281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583Y3NAVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.yonezu.kitty.BaraaraGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaraaraGame;
+			};
+			name = Debug;
+		};
+		031C913F2828D6BD0038F281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2583Y3NAVD;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.yonezu.kitty.BaraaraGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BaraaraGame;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		031C91082828D6BC0038F281 /* Build configuration list for PBXProject "BaraaraGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C91352828D6BD0038F281 /* Debug */,
+				031C91362828D6BD0038F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031C91372828D6BD0038F281 /* Build configuration list for PBXNativeTarget "BaraaraGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C91382828D6BD0038F281 /* Debug */,
+				031C91392828D6BD0038F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031C913A2828D6BD0038F281 /* Build configuration list for PBXNativeTarget "BaraaraGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C913B2828D6BD0038F281 /* Debug */,
+				031C913C2828D6BD0038F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		031C913D2828D6BD0038F281 /* Build configuration list for PBXNativeTarget "BaraaraGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				031C913E2828D6BD0038F281 /* Debug */,
+				031C913F2828D6BD0038F281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 031C91052828D6BC0038F281 /* Project object */;
+}
